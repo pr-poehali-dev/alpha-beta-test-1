@@ -3,9 +3,9 @@ export function ArtSpaces() {
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12 text-center">
-          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Где живёт искусство</h2>
+          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Залы музея</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Исследуйте пространства, где процветает творчество и обретают дом шедевры
+            Шесть пространств, каждое из которых рассказывает свою часть великой истории
           </p>
         </div>
 
@@ -14,14 +14,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/modern-contemporary-art-gallery-white-walls.jpg"
-                alt="Современная галерея"
+                alt="Зал истории"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Современные галереи</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Зал истории</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Минималистичные пространства, созданные для демонстрации современного искусства во всей его красоте
+                Хронология пермского моторостроения от 1930-х годов до наших дней. Документы, фотографии и личные истории конструкторов
               </p>
             </div>
           </div>
@@ -30,14 +30,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/classical-museum-grand-architecture-paintings.jpg"
-                alt="Классический музей"
+                alt="Зал поршневых двигателей"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Исторические музеи</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Зал поршневых двигателей</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Величественные институции, хранящие столетия художественного наследия и культурных сокровищ
+                Военные годы и восстановление: двигатели, обеспечившие победу в небе. Подлинные экспонаты эпохи ВОВ
               </p>
             </div>
           </div>
@@ -46,14 +46,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/artist-studio-workspace-with-paintings-easel.jpg"
-                alt="Мастерская художника"
+                alt="Зал реактивной эпохи"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Мастерские художников</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Зал реактивной эпохи</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Камерные творческие пространства, где вдохновение превращается в осязаемые произведения искусства
+                Турбореактивные двигатели семейства Д-30, открывшие эру массовой реактивной авиации в СССР
               </p>
             </div>
           </div>
@@ -62,14 +62,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/outdoor-sculpture-garden-with-modern-art.jpg"
-                alt="Парк скульптур"
+                alt="Открытая площадка"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Парки скульптур</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Открытая площадка</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Выставки под открытым небом, где искусство гармонирует с природой и ландшафтом
+                Крупногабаритные экспонаты под открытым небом: авиационные двигатели в натуральную величину и промышленные ГТУ
               </p>
             </div>
           </div>
@@ -78,14 +78,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/luxury-private-art-collection-room.jpg"
-                alt="Частная коллекция"
+                alt="Зал современных технологий"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Частные коллекции</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Зал современных технологий</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Персональные пространства, демонстрирующие страсть взыскательных коллекционеров к изящному искусству
+                Двигатель ПД-14 и будущее авиации: интерактивные модели, VR-симуляции и рассказ о разработке МС-21
               </p>
             </div>
           </div>
@@ -94,14 +94,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/contemporary-exhibition-space-art-show.jpg"
-                alt="Выставочное пространство"
+                alt="Детский технопарк"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Выставочные пространства</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Детский технопарк</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Динамичные площадки для сменных экспозиций, объединяющие сообщества вокруг искусства
+                Интерактивная зона для юных инженеров: собери свой двигатель, узнай принципы работы турбины
               </p>
             </div>
           </div>

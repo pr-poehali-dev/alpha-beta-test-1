@@ -4,9 +4,9 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
           <div>
-            <h3 className="font-serif text-2xl font-light mb-4">Галерист</h3>
+            <h3 className="font-serif text-2xl font-light mb-4">Мотор-Музей Перми</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Связываем выдающихся художников со взыскательными коллекционерами с 2020 года.
+              Хранители инженерного наследия Прикамья. Пермь, Комсомольский проспект, 20.
             </p>
           </div>
 
@@ -15,17 +15,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#artists" className="hover:text-foreground transition-colors">
-                  Художники
+                  Изобретатели
                 </a>
               </li>
               <li>
                 <a href="#works" className="hover:text-foreground transition-colors">
-                  Работы
+                  Экспонаты
                 </a>
               </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
-                  О нас
+                  О музее
                 </a>
               </li>
               <li>
@@ -41,17 +41,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Телеграм
+                  ВКонтакте
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Рассылка
+                  Телеграм
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@galerist.art" className="hover:text-foreground transition-colors">
-                  hello@galerist.art
+                <a href="mailto:info@motor-museum.perm.ru" className="hover:text-foreground transition-colors">
+                  info@motor-museum.perm.ru
                 </a>
               </li>
             </ul>
@@ -59,7 +59,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Галерист. Все права защищены.</p>
+          <p>&copy; {new Date().getFullYear()} Мотор-Музей Перми. Все права защищены.</p>
         </div>
       </div>
     </footer>
